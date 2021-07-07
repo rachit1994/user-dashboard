@@ -1,4 +1,4 @@
-import HeaderSidebar from "./HeaderSidebar.component";
+import HeaderSidebar from "./HeaderFilter.component";
 import './index.css';
 
 export default HeaderSidebar;

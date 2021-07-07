@@ -1,0 +1,17 @@
+.filters {
+    display: flex;
+    flex-direction: column;
+}
+
+.filters .title {
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.filters .components input {
+    padding: 0.3rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: none;
+}

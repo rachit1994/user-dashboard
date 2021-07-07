@@ -17,7 +17,7 @@ const Card: FC<CardInterface> = (props) => (
             Country: {props['Country']}
         </div>
         <div>
-            Date of birth: {props['Date of birth']}
+            Date of birth: {new Date(props['Date of birth']).toDateString()}
         </div>
         <div>
             Email: {props['Email']}

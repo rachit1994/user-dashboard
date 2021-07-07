@@ -3,3 +3,37 @@
     flex-flow: row wrap; 
     overflow: auto;
 }
+
+.pagination-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.pagination-container ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.pagination-container ul li {
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: var(--primary);
+    cursor: pointer;
+    display: block;
+    flex: 1 1;
+}
+
+.pagination-container ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .pagination-container  {
+      justify-content: center;
+    }
+  }
