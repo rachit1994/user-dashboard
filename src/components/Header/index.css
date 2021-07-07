@@ -1,0 +1,21 @@
+.header {
+    line-height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    background: #f8f9fa !important;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.border-bottom {
+    border-bottom: solid 1px #eee;
+}
